@@ -5,7 +5,7 @@
 #PBS -N chai_1
 
 module add mambaforge
-mamba activate /storage/{TOWN}/home/{USER}/{CHAI INSTALLATION FOLDER}
-export PYTHONPATH=/storage/{TOWN}/home/{USER}/{CHAI INSTALLATION FOLDER}/lib/python3.12/site-packages/
+mamba activate /storage/{CITY}/home/{USER}/{CHAI INSTALLATION FOLDER}
+export PYTHONPATH=/storage/{CITY}/home/{USER}/{CHAI INSTALLATION FOLDER}/lib/python3.12/site-packages/
 
 python3 run_chai_batch.py
